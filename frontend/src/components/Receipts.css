@@ -1,0 +1,98 @@
+.receipts {
+    margin-top: 90px;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:-470px;
+    margin-bottom: 20px;
+    /* margin: 20px 0; Add some spacing around the container */
+  }
+  .cards {
+    margin-bottom: -65px;
+  }
+  
+  .upload {
+    color: #fff;
+    background-color: rgba(0,0,0,0.75);
+    border: 5px;
+    border-style: solid;
+    border-color:white;
+    display: block;
+    margin: 0 auto; /* Centers the input horizontally */
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .cards__items {
+    margin-top: -50px;
+  }
+  .title {
+    
+    border: 5px;
+    border-style: solid;
+    border-color:white;
+    background-color: rgba(0,0,0,0.75);
+    padding: 10px;
+    color: white;
+  }
+  
+  .upload-container h1 {
+    text-align: center; /* Centers the heading text */
+    margin-bottom: 10px; /* Adds space between the heading and the input */
+  }
+ 
+  .for_button {
+    text-align: center; /* Center the button container */
+    margin-top: 20px;   /* Add spacing above the button */
+}
+
+.bottom_button {
+    margin-top: -300px;
+    margin-bottom: 20px;
+    color: white; /* Text color */
+    /* background: linear-gradient(90deg, #021af3, #86682c); Pink gradient */
+    background: linear-gradient(90deg, #0e0d0c, #e7be05);
+    border: none; /* Remove border */
+    border-radius: 8px; /* More rounded corners */
+    padding: 12px 24px; /* Padding for size */
+    font-size: 18px; /* Text size */
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Hover effect */
+.bottom_button:hover {
+    background: linear-gradient(90deg, #fa002e, #b96118); /* Reverse gradient */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Focus effect */
+.bottom_button:focus {
+
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 8px rgba(255, 118, 158, 0.8); /* Add a subtle glowing effect */
+}
+
+
+  
+  .remove-button {
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 5px 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: darkred;
+  }

@@ -1,0 +1,22 @@
+.each__card {
+
+    width: 300px;
+    height: 150px;
+}
+
+.check-out {
+  color: black;
+  margin: 0 auto; /* Center horizontally */
+  margin-bottom: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center; /* Ensure alignment within the flex container */
+  align-items: center; /* Vertical alignment if needed */
+  text-align: center; /* Center text if multiline */
+}
+
+  .check-out:hover {
+    color: red;
+    transform: scale(1.1);
+  }
+

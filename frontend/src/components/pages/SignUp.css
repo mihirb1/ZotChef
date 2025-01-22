@@ -1,0 +1,31 @@
+/* For the container */
+.sign-in-container, .sign-out-container {
+    text-align: center; /* Centers the button */
+    margin: 20px; /* Adds space around the button */
+}
+
+/* For buttons */
+.sign-in-container button, 
+.sign-out-container button {
+    background-color: #4285f4; /* Google blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px; /* Adjust the text size */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.sign-in-container button:hover, 
+.sign-out-container button:hover {
+    background-color: #357ae8; /* Darker blue on hover */
+}
+
+/* Active effect */
+.sign-in-container button:active, 
+.sign-out-container button:active {
+    background-color: #3367d6; /* Even darker blue when clicked */
+}
