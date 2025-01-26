@@ -36,11 +36,32 @@ function Recipes() {
               
                 {recipes.map(recipe => (
                   <div className = "each__card">
-                    <CardItem 
+                    <CardItem
                       src = {recipe.image}
                       text = {recipe.title}
                       label = {`Likes: ${recipe.likes}`}
                   />
+
+                <div className="ingr">
+                {/* nested mapping, using recipe from the last map function */}
+                <div className="used-ingredients">
+                  <h4>Used Ingredients:</h4>
+                  <ul>
+                    {recipe.usedIngredients.map((ingredient, index) => (
+                      <li key={index}>{ingredient.name}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="unused-ingredients">
+                  <h4>Unused Ingredients:</h4>
+                  <ul>
+                    {recipe.unusedIngredients.map((ingredient, index) => (
+                      <li key={index}>{ingredient.name}</li>
+                    ))}
+                  </ul>
+                </div>
+                </div>
                 </div>
             ))}
           </ul>
