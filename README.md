@@ -29,15 +29,6 @@ ZotChef is a full-stack web application that transforms your grocery receipts in
 
 ---
 
-## 📷 Screenshots
-
-<!-- Add actual screenshots in your GitHub repo and reference them like this:
-![Upload Page](./screenshots/upload_page.png)
-![Recipe Results](./screenshots/recipes.png)
--->
-
----
-
 ## 📦 Setup Instructions
 
 ### 1. Clone the Repository
